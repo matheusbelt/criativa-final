@@ -1,0 +1,672 @@
+﻿/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor text-decoration
+ */ 
+
+a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.titulo{
+	text-transform: uppercase;
+}
+/* HEADER ##########################################################################################
+*/
+header{
+	background: rgba(9,12,78,0.8);
+}
+.clear{
+	clear:both;
+}
+
+.site-header{
+	padding: 10px 20px 20px 20px;
+	margin-bottom: 20px;
+}
+.menu-header ul{
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+	width: 62%;
+}
+.menu-header ul li{
+	font-family: "Quattrocento", sans-serif;
+	float: left;
+	text-transform: capitalize;
+	padding: 27px 18px 27px 18px;
+	font-size: 1.5em;
+	line-height: 1.2173913043;
+}
+.menu-header ul li:hover, .menu-header a:hover{
+	background: rgba(9,12,78,0.9);
+	text-decoration: underline;
+}
+.menu-header ul a li{
+	color: white;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+.header-image{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 95px;
+	margin-top: -100px;
+	z-index: 1;
+}
+.header-image a {
+	width: 165px;
+	background: white;
+	display: block;
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 2px solid #555;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.header-image a:hover img,
+.header-image a:focus img {
+	opacity: 0.80;
+}
+
+.site-title {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-size: 23px;
+	font-size: 1.4375rem;
+	font-weight: 700;
+	line-height: 1.2173913043;
+	margin: 0;
+}
+.site-branding .site-title a {
+	color: #1a1a1a;
+}
+.site-branding .site-title a:hover,
+.site-branding .site-title a:focus {
+	color: #007acc;
+}
+.site-branding{
+	margin-left: 10px;
+	margin-top: 30px;
+	padding: 15px 0 15px 0;
+	float: left;
+	display: inline-block;
+}
+
+/* INICIAL #########################################################################################
+*/
+
+section#inicial{
+	background: url("ini.png");
+	background-size: cover;
+	height: 100vh;
+}
+
+#inicial h1{
+	color: white;
+	font-size: 40pt;
+	margin-top: 240px;
+	margin-left: 30px;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+#inicial h2{
+	color: white;
+	font-size: 18pt;
+	margin-top: 15px;
+	margin-left: 32px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#inicial #botaoini{
+	margin-top: 15%;
+	background: #f16518;
+	color: white;
+	font-size: 14pt;
+	padding: 16px 20px;
+	border-radius: 15px;
+	border: none;
+}
+#inicial #botaoini:hover{
+	background: #ff5b00;
+	transition: .3s;
+}
+
+/* PASSEIOS ############################################################################################
+*/
+
+#passeios{
+	max-width: 930px;
+	padding-top: 40px;
+}
+
+#passeios h1{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
+	margin-left: -15px;
+}
+
+#passeios .portelement.portelement_1{
+	margin-bottom: 30px;
+}
+
+/* EMPRESA #############################################################################################
+*/
+
+div.bg.container-fluid{
+	background: #fffdce;
+	margin: 50px 0 50px 0;
+	padding: 25px 0 70px 0;
+}
+
+section.container-fluid#bgempresa {
+	background: url("logobg2.png"), #fffdce;
+	background-repeat: no-repeat;
+	background-position: 107% 0;
+	padding: 30px 0 70px 0;
+	margin: 0;
+	height: 400px;
+}
+
+#bgempresa h1{
+	text-transform: capitalize;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+}
+
+#bgempresa h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+#bgempresa p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+#bgempresa span{
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	display: block;	
+	font-size: 15pt;
+}
+
+/* DEPOIMENTOS #########################################################################################
+*/
+#testimonial{
+	height: 300px;
+}
+
+section.container-fluid#depoimentos{
+	background: url("depo.png");
+	margin: 0 0 30px 0;	
+	padding: 50px 0 70px 0;
+}
+#depoimentos h1{
+	margin-top: 20px;
+	text-align: center;
+	color: #fbfafa;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+}
+#depoimentos h2{
+	text-align: center;
+	color: #fbfafa;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 40px;
+}
+
+#depoimentos #teste1, #teste2, #teste3{
+	padding:4px;
+	background: white;
+	border-radius: 15px;
+}
+
+div.right-block, div.description{
+	text-align: center !important;
+}
+
+#p-main-slider_2 > div > div.slider-content.p-main-slider_2-panel.panel.currentPanel > div > div > div.image-block_2 > a > img, #p-main-slider_3 > div > div.slider-content.p-main-slider_3-panel.panel.currentPanel > div > div > div.image-block_3 > a > img{
+	/*margin-left: -40px;*/
+}
+
+#p-main-slider_2 > div > div.slider-content.p-main-slider_2-panel.panel.currentPanel > div > div > div.right-block > div.description, #p-main-slider_3 > div > div.slider-content.p-main-slider_3-panel.panel.currentPanel > div > div > div.right-block > div.description{
+	color: black;
+}
+
+/* BLOG ################################################################################################
+*/
+section#blog div.container{
+	margin-bottom: 30px;
+	padding: 50px 0 70px 0;
+}
+
+h2.title {
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 16pt;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+article.posts{
+	padding-top: 25px;
+	margin-top: 20px;
+	float: left;
+	width: 33%;
+	height: 400px;
+	text-align: center;
+	color: white;
+	background: #b41f2c;
+	border-left: 7px solid white;
+	border-right: 7px solid white;
+}
+article.posts a{
+	color: white;
+}
+article.posts p{
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 25px;
+}
+article.posts img{
+	width: 100%;
+	height: 50%;
+}
+article a.more-link{
+	text-align: right;
+}
+
+#blog{
+	background: white;
+}
+h1.blog{
+	text-align: center;
+	text-transform: capitalize;
+	color: #ab141a;
+	font-size: 40px;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+button.vertodos{
+	float: right;
+	background: #b41f2c;
+	border-radius: 15px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	border:none;
+	padding: 5px 20px;
+	margin-top: 10px;
+	margin-right: 17px;
+	padding: 12px 20px;
+	font-size: 14pt;
+}
+button.vertodos:hover{
+	background: #7f040c;
+}
+#blog > div > nav{
+	display: none;
+}
+/* pag interna */
+h1.title-blog{
+	margin-top: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+#our-blog div.post-title, #our-blog div.post-title a{
+	font-family: "Quattrocento";
+	font-size: 1.15em;
+	text-transform: capitalize;
+	color: black;
+	opacity: 0.8;
+}
+.blog div.post-title h3.tblog{
+	font-family: "Quattrocento";
+	font-size: 35px;
+	text-transform: capitalize;
+	color: black;
+	opacity: 0.8;
+}
+#our-blog div.post-title a:hover{
+	color: blue;
+	text-decoration: none;
+}
+#our-blog div.post-title hr{
+	margin-top: 10px;
+}
+#our-blog > div > div.row > div.col-md-9 > div > div.post-body.pe-wp-default{
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+#our-blog > div > div.row > div.col-md-9 > div > div.post-body.pe-wp-default > p:nth-child(2){
+	margin-bottom: 5px;
+}
+
+/* widgets */
+#search-2 > form > label > span{
+	display: none;
+}
+
+#search-2 > form > label > input{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: gray;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	padding: 5px 7px;
+}
+#search-2 > form > label > input:focus{
+	outline: none;
+}
+
+#search-2 > form > button{
+	padding: 5px 10px;
+	color: white;
+	background: #f16518;
+	font-weight: normal;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	text-transform: lowercase;
+	font-size: 10pt;
+	border-radius: 15px;
+	border: none;
+}
+
+#recent-posts-2{
+	margin-top: 30px;
+	color: black;
+	opacity: 0.8;
+}
+#recent-posts-2 h2{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#recent-posts-2 ul{
+	margin-top: 10px;
+}
+#recent-posts-2 ul li{
+	margin-top: 5px;
+}
+#archives-2{
+	margin-top: 30px;
+
+}
+#archives-2 h2{
+	color: black;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#archives-2 > ul{
+	margin-top: 10px;
+}
+#archives-2 > ul li{
+	margin-top: 5px;
+}
+
+/* PARCEIROS ###########################################################################
+*/
+.parceiros{
+	background: #316d9d;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+	height: 590px;
+}
+#parceiros h1{
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+}
+#parceiros h2{
+	color: white;
+	font-size: 16pt;
+	font-weight: normal;
+	text-shadow: none;
+	text-align: center;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+div#p-main-slider_4{
+	margin-top: 40px;
+	background: rgba(0,0,0,0);
+}
+#p-main-slider_4 > div > div.slider-content.p-main-slider_4-panel.panel.currentPanel{
+	background: none;
+}
+#p-main-slider_4 > div > div:nth-child(1){
+	border: none;
+}
+
+#p-main-slider_4 > div > div.slider-content.p-main-slider_4-panel.panel.currentPanel > div > div > div.image-block_4 > a > img{
+	margin-left: 35px;
+}
+#p-main-slider_4 > div > div.slider-content.p-main-slider_4-panel.panel.currentPanel > div > div > div.right-block > div:nth-child(1), #p-main-slider_4 > div > div.slider-content.p-main-slider_4-panel.panel.currentPanel > div > div > div.right-block > div.description{
+	display: none;
+}
+#p-main-slider_4 > div > div.slider-content.p-main-slider_4-panel.panel.currentPanel > div > div > div.right-block > div.button-block > a{
+	margin-top: 10px;
+	padding: 12px 20px;
+	color: white;
+	background: #f16518;
+	font-weight: normal;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	text-transform: lowercase;
+	font-size: 14pt;
+	border-radius: 15px;
+	border: none;
+}
+/* NEWSLETTER ############################################################################
+*/
+
+#newsletter{
+	background: url("news.png");
+	padding: 50px 0 70px 0;
+
+}
+#newsletter h2{
+	color: #f16518;
+	font-size: 16pt;
+	font-weight: normal;
+	text-shadow: none;
+	text-align: center;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+#newsletter label{
+	text-align: left;
+	color: white;
+}
+#newsletter input{
+	border-radius: 15px;
+	border: none;
+}
+
+#wpcf7-f4-o1 > form > p:nth-child(3) > input{ /* butao */
+	margin-top: 10px;
+	padding: 12px 20px;
+	margin-left: 40px;
+	color: white;
+	background: #f16518;
+	font-weight: normal;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	text-transform: lowercase;
+	font-size: 14pt;
+}
+#wpcf7-f4-o1 > form > p:nth-child(3) > input:hover{
+	background: #ff5b00;
+	transition: .3s;
+}
+
+#wpcf7-f4-o1 > form > p:nth-child(2) > label > span > input{ /* bote seu email */
+	padding: 3px 10px;
+	margin-top: 5px;
+	color: black;
+	border: #f16518 5px solid;
+	border-left: 15px solid #f16518;
+	border-right: 15px solid #f16518;
+}
+
+/* CONTATO ################################################################################
+*/
+
+#contato{
+	margin-top: 30px;
+	background: #ffe3a1;
+	padding: 30px 0 70px 0;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+#contato h1{
+	text-align: center;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 24pt;
+	margin-top: 30px;
+}
+#contato h2{
+	text-align: center;
+
+	font-size: 13pt;
+	margin-top: 7px;
+}
+#contato img{
+	width: 35px;
+	height: 35px;
+	margin-bottom: -10px;
+	margin-top: 25px;
+}
+#contato span{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: block;
+	font-size: 14pt;
+}
+#contato form input{
+	margin-top: 5px;
+	width: 250px;
+	color: gray;
+	border-radius: 15px;
+	border:none;
+	padding: 5px 7px;
+}
+#contato form input:focus{
+	outline: none;
+}
+#contato > div > div.col-md-5 > form > input[type="text"]:nth-child(6){
+	padding-bottom: 30px;
+}
+#wpcf7-f9-o2 > form > p:nth-child(6) > input{ /*bot達o */
+	background: #f16518;
+	color: white;
+	font-size: 14pt;
+	padding: 12px 10px;
+	border-radius: 15px;
+	border: none;
+	text-transform: lowercase;
+}
+#wpcf7-f9-o2 > form > p:nth-child(6) > input:hover{
+	background: #ff5b00;
+	transition: .3s;
+}
+
+#wpcf7-f9-o2 > form > p > label > span{
+	margin-top: 3px;
+}
+#wpcf7-f44-o2 > form > p > label{
+	font-weight: normal;
+}
+#wpcf7-f9-o2 > form > p:nth-child(5) > label > span > textarea{
+	border-radius: 15px;
+	border: none;
+}
+#wpcf7-f9-o2 > form > p:nth-child(5) > label, #wpcf7-f44-o2 > form > p:nth-child(5) > label > span{
+	margin-bottom: 3px;
+}
+
+/* ARCHIVE #########################################################################
+*/
+#archive{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.bg-cinza{
+	background: #f6f6f6;
+}
+#archive > div > div.col-md-9 > header > h1{
+	font-family: "Quattrocento", serif;
+	font-size: 2em;
+}
+#archive > div > div.col-md-3{
+	margin-top: 75px;
+}
+
+/* 404 ############################################################################
+*/
+#main > section > div > header > h1{
+	font-family: "Quattrocento", serif;
+	font-size: 2em;
+}
+#main > section > div > div > form > label > span{
+	display: none;
+}
+#main > section > div > div > form > label > input{
+	color: gray;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	padding: 5px 7px;
+}
+#main > section > div > div > form > label > input:focus{
+	outline: none;
+}
+#main > section > div > div > form > button{
+	padding: 5px 10px;
+	color: white;
+	background: #f16518;
+	font-weight: normal;
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	text-transform: lowercase;
+	font-size: 10pt;
+	border-radius: 15px;
+	border: none;
+}
