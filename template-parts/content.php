@@ -8,7 +8,7 @@
  */
 ?>
 
-	<article class="posts" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<article class="posts col-md-4 col-xs-12" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php the_title( sprintf( '<h2 class="title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php the_excerpt(); ?>

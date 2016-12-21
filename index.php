@@ -30,6 +30,7 @@ get_header(); ?>
 		
 		<section class="container" id="passeios">
 			<h1 class="titulo">Passeios</h1>
+			<h2>Viaje conosco</h2>
 			<center><?php echo do_shortcode("[huge_it_portfolio id='1']"); ?></center>
 		</section>
 		
@@ -37,8 +38,8 @@ get_header(); ?>
 		<section class="container-fluid" id="bgempresa">
 			<div class="container">
 				<div class="col-xs-12"> 	
-					<center><h1 class="titulo">Empresa</h1></center>
-					<h2>Quem somos</h2>
+					<center><h1 class="titulo">Benefícios</h1></center>
+					<h2>O que fazemos por você</h2>
 				</div>
 				<div class="col-md-9 col-md-offset-1 col-xs-12 textao">
 				<span>Criativa Turismo</span>
@@ -77,6 +78,7 @@ get_header(); ?>
 		<section id="blog">
 			<div class="container">
 			<h1 class="blog titulo">Blog</h1>
+			<h2>Nossas novidades</h2>
 		<?php if ( have_posts() ) : ?>
 
 			<?php if ( is_home() && ! is_front_page() ) : ?>

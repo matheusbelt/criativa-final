@@ -18,6 +18,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -35,7 +36,7 @@
 					<nav class="menu-header">
 						<ul>
 							<a href="#passeios"><li>Passeios</li></a>
-							<a href="#bgempresa"><li>Empresa</li></a>
+							<a href="#bgempresa"><li>Benefícios</li></a>
 							<a href="#parceiros"><li>Parceiros</li></a>
 							<a href="criativa-turismo/blog"><li>Blog</li></a>
 							<a href="#contato"><li>Contato</li></a>
@@ -46,7 +47,7 @@
 					<nav class="menu-header">
 						<ul>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Passeios</li></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Empresa</li></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Benefícios</li></a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Parceiros</li></a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Blog</li></a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><li>Contato</li></a>

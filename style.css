@@ -30,6 +30,29 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-weight: normal;
 }
 
+
+/*MOBILE ######################################################################################################
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+	header{	background: rgba(9,12,78,0.8);}
+	.clear{	clear:both;}
+	.site-header{padding: 10px 20px 20px 20px; margin-bottom: 20px; }
+	.menu-header ul{ list-style-type: none;	float: right; display: inline-block; width: 80%;}
+	.menu-header ul li{ font-family: "Quattrocento", sans-serif; float: left; text-transform: capitalize; padding: 27px 18px 27px 18px; font-size: 1.5em; line-height: 1.2173913043; width: 100%; text-align: center;}
+	.menu-header ul li:focus, .menu-header a:focus{ background: rgba(9,12,78,0.9); text-decoration: underline; }
+	.menu-header ul a li{ color: white; text-transform: capitalize; font-weight: normal; }
+	.site-title { font-family: Montserrat, "Helvetica Neue", sans-serif; font-size: 23px; font-size: 1.4375rem; font-weight: 700; line-height: 1.2173913043; margin: 0; }
+	.site-branding .site-title a { color: #1a1a1a; }
+	.site-branding .site-title a:hover,
+	.site-branding .site-title a:focus { color: #007acc; }
+	.site-branding{	margin-left: 10px; margin-top: 30px; padding: 15px 0 15px 0; float: left; display: inline-block;}
+	#page > div.header-image.col-md-offset-1.col-lg-offset-2 > a{ background: none; border-radius: none; border: none; box-shadow: none; margin-top: -200px;}
+	#teste1, #teste2, #teste3{ margin-top: 20px; }
+	#wpcf7-f4-o1, #wpcf7-f4-o1 > form > p:nth-child(2) > label > span > input { max-width: 300px;}
+	#wpcf7-f7-o2 > form > p:nth-child(4) > label > span > textarea { max-width: 300px; }
+}
+
 .titulo{
 	text-transform: uppercase;
 }
@@ -127,6 +150,7 @@ section#inicial{
 	background: url("ini.png");
 	background-size: cover;
 	height: 100vh;
+	min-height: 600px;
 }
 
 #inicial h1{
@@ -171,12 +195,16 @@ section#inicial{
 	text-align: center;
 	font-size: 30pt;
 	font-weight: normal;
-	text-transform: capitalize;
-	font-family: 'Roboto', sans-serif;
-	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
 	margin-left: -15px;
 }
-
+#passeios h2{
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	font-size: 16pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
 #passeios .portelement.portelement_1{
 	margin-bottom: 30px;
 }
@@ -200,7 +228,7 @@ section.container-fluid#bgempresa {
 }
 
 #bgempresa h1{
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30pt;
 }
@@ -292,7 +320,6 @@ article.posts{
 	padding-top: 25px;
 	margin-top: 20px;
 	float: left;
-	width: 33%;
 	height: 400px;
 	text-align: center;
 	color: white;
@@ -321,10 +348,17 @@ article a.more-link{
 }
 h1.blog{
 	text-align: center;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	color: #ab141a;
-	font-size: 40px;
+	font-size: 30pt;
 	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+#blog h2{
+	font-family: 'Raleway', 'Roboto', sans-serif;
+	font-size: 16pt;
+	text-align: center;
+	color: #ab141a;
+	margin-bottom: 20px;
 }
 button.vertodos{
 	float: right;
@@ -561,13 +595,13 @@ div#p-main-slider_4{
 	text-align: center;
 	font-family: 'Raleway', 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 24pt;
+	font-size: 30pt;
 	margin-top: 30px;
 }
 #contato h2{
 	text-align: center;
 
-	font-size: 13pt;
+	font-size: 16pt;
 	margin-top: 7px;
 }
 #contato img{
